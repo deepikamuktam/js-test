@@ -15,3 +15,9 @@
 // ---------------------------
 // Solution Area
 // ---------------------------
+const names = ["alex", "john", "sam"];
+
+function uppercase(names){
+    return names.map(name=>name.toUpperCase());
+}
+console.log(uppercase(names));

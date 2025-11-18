@@ -7,9 +7,9 @@
 
 // ------------------------------------------------------------
 
-console.log(a);
-console.log(b);
-console.log(c);
+console.log(a);//undefined
+console.log(b);//error
+console.log(c);//30
 
 var a = 10;
 let b = 20;

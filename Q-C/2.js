@@ -13,3 +13,7 @@
 // ---------------------------
 // Solution Area
 // ---------------------------
+function sumAll(...numbers){
+    return numbers.reduce((total.num)=>total+sumAll,0);
+}
+console.log(sumAll(6,8));

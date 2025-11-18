@@ -17,3 +17,8 @@
 // ---------------------------
 
 // Write your function here:
+function addIsActive(obj){
+    return{...obj,isActive: true};
+}
+const user={ name: "John", age:25 };
+console.log(addIsActive(user));

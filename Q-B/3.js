@@ -20,3 +20,13 @@
 // ---------------------------
 // Solution Area
 // ---------------------------
+const cart = [
+  { price: 100, quantity: 2 },
+  { price: 50,  quantity: 1 },
+  { price: 25,  quantity: 4 }
+];
+function calculateCart(cart){
+    return cart.reduce((total,item)=>total+item);
+}
+
+console.log(calculateCart(cart));

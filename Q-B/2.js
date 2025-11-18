@@ -12,10 +12,10 @@
 
 // ------------------------------------------------------------
 
-var count = 0;
+let count = 0;
 
 function increment() {
-  const count = count + 1;
+  count = count + 1;
   console.log(count);
 }
 
